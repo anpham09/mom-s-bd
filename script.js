@@ -7,15 +7,15 @@ const remainingText = document.getElementById("remaining");
 // Put your real audio files inside the audio folder.
 // Example: audio/english.m4a, audio/vietnamese.m4a, etc.
 let languages = [
-  { name: "Anh", audio: "audio/english.m4a" },
-  { name: "Việt", audio: "audio/vietnamese.m4a" },
-  { name: "Tàu", audio: "audio/chinese.m4a" },
-  { name: "Pháp", audio: "audio/french.m4a" },
-  { name: "Tây Ban Nha", audio: "audio/spanish.m4a" },
-  { name: "Hàn", audio: "audio/korean.m4a" },
-  { name: "Nhật", audio: "audio/japanese.m4a" },
-  { name: "Ý", audio: "audio/italian.m4a" },
-  { name: "Thái", audio: "audio/thai.m4a" }
+  { name: "Anh", audio: "audio/English.m4a" },
+  { name: "Việt", audio: "audio/Vietnamese.m4a" },
+  { name: "Tàu", audio: "audio/Chinese.m4a" },
+  { name: "Pháp", audio: "audio/French.m4a" },
+  { name: "Tây Ban Nha", audio: "audio/Spanish.m4a" },
+  { name: "Hàn", audio: "audio/Korean.m4a" },
+  { name: "Nhật", audio: "audio/Japanese.m4a" },
+  { name: "Ý", audio: "audio/Italian.m4a" },
+  { name: "Thái", audio: "audio/Thai.m4a" }
 ];
 
 let currentRotation = 0;
